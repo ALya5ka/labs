@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Таблица</title>
+        <link rel="stylesheet" href="../CSS/table.css" />
+    </head>
+    <body>
+        <div class="header">
+            <a class="shapka" href="start.html">Основная страница</a>
+            <a class="shapka" href="page2.html">Позиционирование элементов</a>
+            <a class="shapka" href="table.html">Таблица</a>
+        </div>
+        <table style="width: 1200px";>
+            <caption>Перечень некоторых кратных и дольных единиц рекомендованных к применению ГОСТ 8.417-81</caption>
+           <tr class="one">
+                <th style="width: 200px;" rowspan="2">Наименование величины</th>
+                <th style="width: 800px;" colspan="2">Единица</th>
+                <th rowspan="2">Обозначения кратных и дольных единиц, рекомендованных к применению</th>
+           </tr>
+           <tr class="one">
+                <td>Наименование</td>
+                <td>Обозначение</td>
+            </tr>
+            <tr>
+                <td>Длина</td>
+                <td>метр</td>
+                <td>м</td>
+                <td>км, см, мм, мкм, нм</td>
+            </tr>
+            <tr>
+                <td>Площадь</td>
+                <td>квадратный метр</td>
+                <td>м<sup>2</sup></td>
+                <td>км<sup>2</sup>, дм<sup>2</sup>, см<sup>2</sup>, мм<sup>2</sup></td>
+            </tr>
+            <tr>
+                <td>Объем, вместимость</td>
+                <td>кубический метр</td>
+                <td>м<sup>3</sup></td>
+                <td>дм<sup>3</sup>, см<sup>3</sup>, мм<sup>3</sup></td>
+            </tr>
+            <tr>
+                <td>Время</td>
+                <td>секунда</td>
+                <td>с</td>
+                <td>кс, мс, мкс, нс</td>
+            </tr>
+            <tr>
+                <td>Частота периодического процесса</td>
+                <td>герц</td>
+                <td>Гц</td>
+                <td>ТГц, ГГц, МГц, кГц</td>
+            </tr>
+            <tr>
+                <td>Масса</td>
+                <td>килограмм</td>
+                <td>кг</td>
+                <td>Мг, г, мг, мкг</td>
+            </tr>
+        </table>
+        <form>
+            <input class="one" list="nvalues" name="nvalue">
+            <input class="two" list="names" name="name">
+            <input class="three" list="designations" name="designation">
+            <input class="four" list="desmuls" name="desmul">
+            <datalist id="nvalues">
+                <option value="Cила"></option>
+                <option value="Момент силы"></option>
+                <option value="Энергия, работа"></option>
+                <option value="Мощность"></option>
+                <option value="Температура"></option>
+                <option value="Сила тока"></option>
+                <option value="Электрический заряд"></option>
+                <option value="Индуктивность"></option>
+            </datalist>
+            <datalist id="names">
+                <option value="ньютон"></option>
+                <option value="ньютон-метр"></option>
+                <option value="джоуль"></option>
+                <option value="ватт"></option>
+                <option value="кельвин"></option>
+                <option value="ампер"></option>
+                <option value="кулон"></option>
+                <option value="генри"></option>
+            </datalist>
+            <datalist id="designations">
+                <option value="Н"></option>
+                <option value="Н*м"></option>
+                <option value="Дж"></option>
+                <option value="Вт"></option>
+                <option value="К"></option>
+                <option value="А"></option>
+                <option value="Кл"></option>
+                <option value="Гн"></option>
+            </datalist>
+            <datalist id="desmuls">
+                <option value="МН, кН, мН, мкН"></option>
+                <option value="МН*м, кН*м, мН*м, мкН*м"></option>
+                <option value="ТДж, ГДж, МДж, кДж, мДж"></option>
+                <option value="ГВт, МВт, кВт, мВт, мкВт"></option>
+                <option value="МК, кК, мК, мкК"></option>
+                <option value="кА, мА, мкА, нА, пА"></option>
+                <option value="кКл,мкКл, нКл, пКл"></option>
+                <option value="мГн, мкГн, нГн, пГн"></option>
+            </datalist>
+        </form>
+    </body>
+</html>
