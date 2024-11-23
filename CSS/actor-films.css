@@ -1,0 +1,65 @@
+.carousel-inner{
+    background-color: rgb(169, 148, 118);
+}
+.carousel-item{
+  text-align:center;
+}
+
+.zagolov{
+  padding: 10px;
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.card{
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(242, 230, 212)!important;
+}
+.card-header{
+  border: 2px;
+  border-radius: 3px;
+}
+.sidebar{
+  padding: 5px;
+  position:fixed;
+  width:200px;
+  
+}
+
+.sidebar .nav-link.active {
+  color: white !important;
+}
+
+.alert{
+  margin-bottom: 15px;
+}
+
+.content-container {
+	margin-left: 200px;
+}
+
+.container{
+  margin-top: 50px;
+  background-color: rgb(242, 230, 212);
+  padding: 10px;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.container-table{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+th{
+  background-color: rgb(169, 148, 118)!important;
+}
+td{
+  background-color: rgb(242, 230, 212)!important;
+}
