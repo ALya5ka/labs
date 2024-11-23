@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Информация об актёре</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="../CSS/actor.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+crossorigin="anonymous">
+    <!-- Подключение CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body style="background-color: rgb(223, 205, 179)" data-bs-spy="scroll" data-bs-target=".sidebar"> 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center sticky-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href=".\info.html">Информация об актёре</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href=".\films.html">Фильмография</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <ul class="nav bg-dark flex-column">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#demo">Карусель</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#card-film">Карточки</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#accordion">Краткая информация</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content-container">
+    <h1 class="zagolov">Джеки Чан - гонконгский, китайский и американский актёр, 
+        мастер боевых искусств, каскадёр, продюсер, режиссёр, сценарист</h1>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img 
+                src="../Images/background.jpg"
+                alt="y"
+                class="inline-block"
+                style="height: 600px"
+                />
+            </div>
+            <div class="carousel-item">
+                <img 
+                src="../Images/jackie-chan-2.jpg"
+                alt="y"
+                class="inline-block"
+                style="height: 600px"
+                />
+            </div>
+            <div class="carousel-item">
+                <img 
+                src="../Images/jackie-chan-3.jpg"
+                alt="y"
+                class="inline-block"
+                style="height: 600px"
+                />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+    </div>
+
+    <div id="card-film" class="container">
+        <div class="card" style="width: 400px">
+            <img 
+            class="card-img-bottom"
+            src="../Images/who_am_i.webp"
+            alt="Кто я?(постер)"
+            style="width: 100%"
+            />
+            <div class="card-body">
+                <h4 class="card-title">Кто я? (1998)</h4>
+                <p class="card-text">По окончании операции всю группу спецназа пытаются ликвидировать. 
+                    Один из солдат, выживший после авиакатастрофы, но потерявший память, пытается бороться со своими мыслями и вспомнить, кто он.</p>
+            </div>
+            <a href="https://www.kinopoisk.ru/film/24690/?utm_referrer=yandex.ru" class="btn btn-dark">Страница на Кинопоиске</a>
+        </div>
+        <div class="card" style="width: 400px">
+            <img 
+            class="card-img-bottom"
+            src="../Images/razborki_v_bronkse.jpg"
+            alt="Разборка в Бронксе (постер)"
+            style="width: 100%"
+            />
+            <div class="card-body">
+                <h4 class="card-title">Разборка в Бронксе (1995)</h4>
+                <p class="card-text">Гонконгский полицейский Кюн приезжает к дяде в Америку на свадьбу. 
+                    Дядя как раз продал свой супермаркет красивой китаянке, ни слова не сказав новой хозяйке, что на магазин имеют виды бандиты, и уехал.</p>
+            </div>
+            <a href="https://www.kinopoisk.ru/film/24693/" class="btn btn-dark">Страница на Кинопоиске</a>
+        </div>
+        <div class="card" style="width: 400px">
+            <img 
+            class="card-img-bottom"
+            src="../Images/shpion_po_sosedstvu.webp"
+            alt="Шпион по соседству (постер)"
+            style="width: 100%"
+            />
+            <div class="card-body">
+                <h4 class="card-title">Шпион по соседству (2010)</h4>
+                <p class="card-text">Русская мафия наносит визит агенту ЦРУ, когда он нянчится с детьми своей девушки..</p>
+            </div>
+            <a href="https://www.kinopoisk.ru/film/431539/" class="btn btn-dark">Страница на Кинопоиске</a>
+        </div>
+    </div>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collaps1">
+                    Биография
+                </a>
+            </div>
+            <div id="collaps1" class="collapse">
+                <div class="card-body">
+                    <p>Джеки Чан родился 7 апреля 1954 года в Британском Гонконге в китайской семье. 
+                        Мать Ли-Ли Чан (1916—2002) — горничная в посольстве Франции в Гонконге. 
+                        Отец — Чарльз Чан (1914—2008), повар. Родители бежали из Китая в Гонконг во время гражданской войны, 
+                        а в 1960 году переехали в Австралию.</p> 
+
+                    <p>Джеки Чан с детства начал заниматься кунг-фу. В 1971 году окончил Гонконгскую школу Пекинской оперы, 
+                        где занимался различными дисциплинами: танцами и пением, пантомимой, акробатикой и боевыми искусствами. 
+                        В годы учёбы сыграл около 20 эпизодических ролей в кино и театре.</p>
+                    
+                    <p>Его кинематографическим дебютом стала картина «Семь тиранов Цзяннаня» (1962), 
+                        где он сыграл вместе со своим одноклассником Саммо Хуном, ныне также известным актёром и режиссёром. 
+                        Вместе они входят в группу «Семи везунчиков» с Юэнем Бяо и Кори Квай, ставшими популярными актёрам.</p>
+
+                    <p>В сентябре 1986 года актёр перешёл в Театр имени Моссовета, где играл в спектакле Г. Тростянецкого по пьесе В. Астафьева
+                    «Печальный детектив». В декабре 1988-го он вернулся в Малый театр, поставил «Дикарку» А. Н. Островского (1991)</p>
+
+                    <p>С 1971 года начал работать каскадёром под псевдонимом Синг Лунг («Стать Драконом») в гонконгской киностудии Shaw Brothers, 
+                        одновременно исполняя трюки в эпизодах, в том числе в фильмах с Брюсом Ли «Кулак ярости» (1972), «Выход дракона» (1973). 
+                        В 1976 году он переехал к родителям в Австралию, где подрабатывал на стройке. Именно там за ним закрепилось прозвище Джеки. 
+                        Вскоре Чан вернулся в Гонконг, приняв приглашение сыграть главную роль в боевике «Новый кулак ярости» (1976). 
+                        За ним последовали другие фильмы с участием начинающего актёра. С этого времени стал формироваться его фирменный стиль. 
+                        Киноленты «Змея в тени Орла» (1978) и «Пьяный мастер» (1978) с Джеки Чаном в главной роли стали в Азии хитами 
+                        того времени — в фильмах было много юмора, акробатических трюков и драк, в постановке которых актёр принимал 
+                        непосредственное участие. Амплуа застенчивого и порой ленивого добряка, случайно оказывающегося в нелепых 
+                        ситуациях и пытающегося выбраться из них при помощи кунг-фу, закрепилось за ним. В 1979 году Чан дебютировал 
+                        как режиссёр с фильмом «Бесстрашная гиена».</p>
+
+                    <p>1980-е годы для актёрской карьеры Джеки Чана прошли насыщенно. Он снялся в более чем 20 фильмах, 
+                        многие из которых поставил сам: «Проект А» (1983), «Полицейская история» (1985), «Доспехи бога» (1986) и др. 
+                        Он создаёт кино развлекательного плана — комедии с демонстрацией боевых искусств и уличных драк, 
+                        постепенно формируя новый киножанр, в котором может работать только он. Ведь Джеки Чан известен тем, 
+                        что самостоятельно выполняет большую часть трюков, из-за чего неоднократно получал травмы и подвергал 
+                        свою жизнь риску (во время финальных титров в его фильмах обычно демонстрируется бэкстейдж 
+                        с неудавшимися дублями).</p>
+                    
+                    <p>В 90-х годах он сыграл в таких фильмах, как «Первый удар» (1995), «Громобой» (1995), «Мистер Крутой» (1996) и др. 
+                        Став кинозвездой на родине, Джеки Чан начал сниматься в Голливуде. Первым коммерчески успешным фильмом с его 
+                        участием в США стала лента «Разборка в Бронксе», собравшая более $32 млн. За ней последовали блокбастеры «Кто я?», 
+                        «Шанхайский полдень», «Час пик» (1998), «Час Пик 2» (2001), «Час Пик 3» (2007) и др. Удачный дуэт с Крисом Такером 
+                        заработал любовь зрителей: общие сборы всей трилогии составили около $1 млрд. В 2000-е годы Джеки Чан начинает больше 
+                        экспериментировать с жанрами, героями и сюжетами. В одном из интервью он сказал, что хочет доказать, что он актёр, 
+                        который умеет драться, а не боец, умеющий играть. Так, в детективном триллере «Иностранец» (2017) он сыграл 
+                        драматическую роль ветерана Вьетнамской войны и бывшего спецагента, пытающегося отомстить врагам.</p>
+                    <p>С 2000 по 2005 год успехом на экране пользовался мультсериал «Приключения Джеки Чана», 
+                        где Джеки после каждой серии отвечал на вопросы фанатов.</p>
+                    <p>В 2020-х годах снялся в таких фильмах, как «Авангард: Арктические волки» (2020), 
+                        «Кунг-фу жеребец» (2023), «Круче некуда» (2023). По состоянию на октябрь 2023 года на счету актёра 309 киноработ.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collaps2">
+                    Семья и личная жизнь
+                </a>
+            </div>
+            <div id="collaps2" class="collapse" >
+                <div class="card-body">
+                    <p>Жена — Линь Фэнцзяо, тайваньская актриса. Сын — Джейси Чан (род. 3 декабря 1982 года), актёр, певец.
+                        Имеет внебрачную дочь Этту У Чжолинь (род. 19 ноября 1999 года) от актрисы Элейн У Цили.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
