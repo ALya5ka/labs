@@ -106,9 +106,7 @@ a.shapka {
     height: 200px;
     position: relative;
     left: 365px;
-    right: 0px;
     top: 125px;
-    bottom: 0px;
 }
 
 .relative-2-block-4 {
@@ -117,17 +115,13 @@ a.shapka {
     height: 200px;
     position: relative;
     left: 710px;
-    right: 0px;
     top: 265px;
-    bottom: 0px;
 }
 
 .fixed-block-4 {
     margin-left: 0px;
     position: fixed;
-    left: 1420px;
     right: 0px;
-    top: 630px;
     bottom: 0px;
 }
 
