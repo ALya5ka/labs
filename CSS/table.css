@@ -1,0 +1,79 @@
+body {
+    background-color: paleturquoise;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: turquoise;
+}
+
+a.shapka {
+    background-color:  aquamarine;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+tr:nth-child(even) {
+    background-color: lightcoral;
+}
+
+tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+tr.one {
+    background-color: lightgray;
+}
+
+tr.form {
+    background-color: lightskyblue;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.one-1 {
+    width: 216px;
+    height: 50px;
+}
+
+.two {
+    width: 291px;
+    height: 50px;
+}
+
+.three {
+    width: 238px;
+    height: 50px;
+}
+
+.four {
+    width: 430px;
+    height: 50px;
+}
+
+input {
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 18px;
+}
