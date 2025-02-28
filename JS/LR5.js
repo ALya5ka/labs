@@ -32,7 +32,6 @@ function getMinColumnElements(matrix) {
     });
 }
 
-// Пример использования
 let matrix = [
     [1.5, 2.0, 3.0],
     [4.0, 5.0, 1.0],
@@ -40,4 +39,3 @@ let matrix = [
 ];
 
 console.log(getMinColumnElements(matrix));
-// Выводит: [1.5, 2.0, 1.0]
