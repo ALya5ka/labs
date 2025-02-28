@@ -49,5 +49,5 @@ let circle = new Circle(0, 0, 5);
 let rectangle = new Rectangle(1, 1, 4, 6);
 
 // Вывод информации
-console.log(`Круг: центр ${circle.getCenter()}, площадь ${circle.square()}`);
-console.log(`Прямоугольник: центр ${rectangle.getCenter()}, площадь ${rectangle.square()}`);
+console.log(`Круг: центр ${circle.getCenter()}, площадь равна ${circle.square()}`);
+console.log(`Прямоугольник: центр ${rectangle.getCenter()}, площадь равна ${rectangle.square()}`);
